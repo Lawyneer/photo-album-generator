@@ -70,6 +70,7 @@ Each photo produces a block like the following:
 The markup uses Bootstrap responsive column classes (col-xl-3 col-lg-4 col-md-6) for the grid layout and glightbox for the lightbox previews. Photos appear in alphabetical order by filename.
 
 ## Customization
-Base image path: edit base_path at the top of the __main__ block (default: 'img').
-Output filename: edit output_file inside the html_code() function (default: 'gallery_code.ejs').
-Grid layout / link classes: edit the gallery_item template string inside html_code().
+Customizations a user may want to make include:
+1. Base image path: edit base_path at the top of the __main__ block (default: 'img').
+2. Output filename: edit output_file inside the html_code() function (default: 'gallery_code.ejs').
+3. Grid layout / link classes: edit the gallery_item template string inside html_code().
