@@ -26,7 +26,7 @@ The script was written to work with this template: [PhotoFolio - Bootstrap Photo
 ## Usage
 
 1. Place `photo-album-generator.py` in the parent directory containing your photo subdirectories:
-
+   ```bash
    parent-dir/ 
     ├── photos-master.py
     ├── album-one/ 
