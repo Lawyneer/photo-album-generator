@@ -48,6 +48,7 @@ The script was written to work with this template: [PhotoFolio - Bootstrap Photo
 
 ## Important Notes and Limitations
 ⚠️ Non-recursive: The script does not recurse into nested directories. Only the immediate subdirectories of the working directory are processed, and only files directly inside each one are included.
+
 ⚠️ All files become gallery items: The script assumes that the only files in each subdirectory are image files you want in the album. The only files skipped are hidden files (beginning with a dot), the script itself, and previously generated gallery_code.ejs files. Please delete any files from these directories that you do not want published in the photo album before running the script — anything left behind will be linked in the generated gallery.
 The script must be run from the parent directory (it uses the current working directory to find subdirectories).
 Overwrite warning: any existing gallery_code.ejs file in a subdirectory will be overwritten each time the script runs.
